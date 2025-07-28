@@ -25,17 +25,17 @@ const Header = () => {
         {/* Navigation */}
         <nav className="hidden md:flex items-center space-x-6">
           <Button variant="ghost" className="text-foreground hover:text-primary">
-            Book Flight
+            <a href="/">Book Flight</a>
           </Button>
           <Button variant="ghost" className="text-foreground hover:text-primary">
-            Manage Booking
+            <a href="/dashboard">Dashboard</a>
           </Button>
           <Button variant="ghost" className="text-foreground hover:text-primary">
-            Check-in
+            <a href="/reports">Reports</a>
           </Button>
           <Button variant="ghost" className="text-foreground hover:text-primary flex items-center space-x-1">
             <HelpCircle className="h-4 w-4" />
-            <span>Help</span>
+            <a href="/help">Help</a>
           </Button>
         </nav>
 
